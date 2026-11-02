@@ -1,0 +1,24 @@
+// Lab6 - ACG525 (GW5A-LV25UG324C2/I1) - top: lab06_top_74hc595
+// Pins from "ACG525 pin information table"
+IO_LOC "clk_50m_i" T9;
+IO_LOC "key_raw_i[0]" B16;
+IO_LOC "key_raw_i[1]" A15;
+IO_LOC "key_raw_i[2]" C15;
+IO_LOC "led_pin_o[0]" D14;
+IO_LOC "led_pin_o[1]" C14;
+IO_LOC "led_pin_o[2]" B9;
+IO_LOC "seg_ds_o" F4;
+IO_LOC "seg_stcp_o" F3;
+IO_LOC "seg_shcp_o" H4;
+
+// LVCMOS33 is an assumption - check schematic / Lab01 project
+IO_PORT "clk_50m_i" IO_TYPE=LVCMOS33;
+IO_PORT "key_raw_i[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_PORT "key_raw_i[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_PORT "key_raw_i[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_PORT "led_pin_o[0]" IO_TYPE=LVCMOS33;
+IO_PORT "led_pin_o[1]" IO_TYPE=LVCMOS33;
+IO_PORT "led_pin_o[2]" IO_TYPE=LVCMOS33;
+IO_PORT "seg_ds_o" IO_TYPE=LVCMOS33;
+IO_PORT "seg_stcp_o" IO_TYPE=LVCMOS33;
+IO_PORT "seg_shcp_o" IO_TYPE=LVCMOS33;

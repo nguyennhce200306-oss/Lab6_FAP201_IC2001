@@ -1,0 +1,13 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25UG324C2/I1">gw5a25a-008</Device>
+    <FileList>
+        <File path="src/Lab6.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Lab6tb.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Lab6.cst" type="file.cst" enable="1"/>
+        <File path="src/Lab6.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
